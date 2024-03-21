@@ -1,0 +1,66 @@
+.design{
+    background-color: blueviolet !important;
+}
+
+.animate-button {
+    animation: pulseAnimation 1s infinite;
+  }
+  
+  @keyframes pulseAnimation {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+
+ 
+                     
+  .btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+   
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ .font{
+  font-family: 'Barriecito', cursive;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-family: 'Tilt Prism', cursive;
+font-size: 2rem !important;
+ }
+
+ span{
+  font-family: 'Barriecito', cursive;
+  font-family: 'Kalam', cursive;
+  font-family: 'Stint Ultra Condensed', cursive;
+  letter-spacing:10px;
+  font-weight: bold;
+  padding-left: 20px;
+ }
+a:hover{
+  background-color: #314755;
+}
+ @media screen and (min-width:378px){
+  span{
+    letter-spacing: 25px !important;
+  }
+ }
+
+ @media screen and (min-width:769px){
+ .feature{
+   justify-content: flex-end !important;
+  }
+ }
